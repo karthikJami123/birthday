@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffb6c1, #ffe4e1);
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e91e63;
+}
+
+.wish {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.balloons {
+  font-size: 4rem;
+  animation: float 2s infinite ease-in-out;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.photo {
+  margin-top: 30px;
+}
+
+.photo img {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #e91e63;
+}
+
+#surprise-message {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #6a1b9a;
+}
+
+.hidden {
+  display: none;
+}
