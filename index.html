@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #ffb6c1, #ffe4e1);
+      font-family: 'Comic Sans MS', cursive;
+      text-align: center;
+      color: #333;
+    }
+    .container {
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #e91e63;
+    }
+    .wish {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+    .balloons {
+      font-size: 4rem;
+      animation: float 2s infinite ease-in-out;
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0px); }
+    }
+    .photo {
+      margin-top: 30px;
+    }
+    .photo img {
+      width: 200px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="balloons">🎈🎉🎂🎁</div>
+    <h1>Happy Birthday, Ravi! 🎉</h1>
+    <p class="wish">
+      Wishing you a day filled with love, laughter, and your favorite cricket matches! <br>
+      May all your dreams come true. 🏏💖
+    </p>
+    <div class="photo">
+      <img src="your-friend-photo.jpg" alt="Birthday Friend" />
+    </div>
+    <audio autoplay loop>
+      <source src="happy-birthday.mp3" type="audio/mpeg">
+      Your browser does not support audio.
+    </audio>
+  </div>
+</body>
+</html>
